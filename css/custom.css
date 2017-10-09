@@ -33,11 +33,11 @@ a:hover {
 }
 
 .navbar-white li a {
-    color: #16a085 !important;
+    color: #455A64 !important;
 }
 
 .navbar-white .navbar-brand {
-    color: #16a085 !important;
+    color: #455A64 !important;
 }
 
 .navbar-white button.navbar-toggle {
@@ -1111,5 +1111,9 @@ ul.price-table-chart li:nth-child(2) .price_table-button {
 
 .espacio-izquierda {
     margin-left: 10px;
+}
+
+.navbar-brand img {
+    width: 110px;
 }
 
