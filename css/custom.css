@@ -1110,10 +1110,36 @@ ul.price-table-chart li:nth-child(2) .price_table-button {
 =====================================================================================================*/
 
 .espacio-izquierda {
-    padding-left: 15px; 
+    padding-left: 15px;
 }
 
 .navbar-brand img {
     width: 110px;
 }
 
+p.indent {
+    padding-top: 1.8em;
+}
+
+/* Flashing */
+.hover13 figure:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
