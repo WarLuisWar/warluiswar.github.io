@@ -800,7 +800,7 @@ form {
 .copyright {
     margin-top: 10px;
     font-size: 16px;
-    color: #f3f3f3;
+    color: #353030;
 }
 
 .copyright a:hover {
@@ -810,7 +810,7 @@ form {
 }
 
 .copyright a {
-    color: #FFFFFF;
+    color: #353030;
 }
 
 .theme {
@@ -1122,24 +1122,33 @@ p.indent {
 }
 
 /* Flashing */
+
 .hover13 figure:hover img {
-	opacity: 1;
-	-webkit-animation: flash 1.5s;
-	animation: flash 1.5s;
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
 }
+
 @-webkit-keyframes flash {
-	0% {
-		opacity: .4;
-	}
-	100% {
-		opacity: 1;
-	}
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
 }
+
 @keyframes flash {
-	0% {
-		opacity: .4;
-	}
-	100% {
-		opacity: 1;
-	}
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Background */
+
+.fondo {
+    background-color: #fafafa;
 }
