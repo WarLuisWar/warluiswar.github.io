@@ -22,7 +22,8 @@ a:hover {
 }
 
 .btn {
-    border-radius: 0;
+    border-radius: 5;
+    border-color: #ECEFF1 #ECEFF1;
     transition: background 0.5s cubic-bezier(.17, .67, .83, .67);
 }
 
@@ -762,21 +763,22 @@ a {
     background-color: #4A789E;
 }
 
-.pinterest {
+.behance {
     background-color: #3acab1;
 }
 
-.pinterest:hover {
-    background-color: #CB2027;
+.behance:hover {
+    background-color: #0057FF;
 }
 
-.skype {
+.linkedin {
     background-color: #3acab1;
 }
 
-.skype:hover {
-    background-color: #01AEF2;
+.linkedin:hover {
+    background-color: #0077B5;
 }
+
 
 form {
     width: 100%;
@@ -929,8 +931,8 @@ form {
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
     color: #FFF;
-    background-color: #3acab1;
-    border-color: #3acab1;
+    background-color: #475D75;
+    border-color: #475D75;
 }
 
 .pagination > li > a,
@@ -1135,7 +1137,7 @@ p.indent {
 
 @-webkit-keyframes flash {
     0% {
-        opacity: .4;
+        opacity: .7;
     }
     100% {
         opacity: 1;
@@ -1144,11 +1146,44 @@ p.indent {
 
 @keyframes flash {
     0% {
-        opacity: .4;
+        opacity: .7;
     }
     100% {
         opacity: 1;
     }
+}
+
+/* Flashing */
+
+.sobre:hover img {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+}
+
+@-webkit-keyframes flash {
+    0% {
+        opacity: .7;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes flash {
+    0% {
+        opacity: .7;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.ajustar {
+    height: 100%;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 /* Background */
