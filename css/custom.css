@@ -732,39 +732,15 @@ a {
 }
 
 .facebook {
-    background-color: #3acab1;
+    background-color: #3b5167;
 }
 
 .facebook:hover {
     background-color: #46629E;
 }
 
-.twitter {
-    background-color: #3acab1;
-}
-
-.twitter:hover {
-    background-color: #0EAACE;
-}
-
-.google-plus {
-    background-color: #3acab1;
-}
-
-.google-plus:hover {
-    background-color: #DD4C39;
-}
-
-.instagram {
-    background-color: #3acab1;
-}
-
-.instagram:hover {
-    background-color: #4A789E;
-}
-
 .behance {
-    background-color: #3acab1;
+    background-color: #3b5167;
 }
 
 .behance:hover {
@@ -772,7 +748,7 @@ a {
 }
 
 .linkedin {
-    background-color: #3acab1;
+    background-color: #3b5167;
 }
 
 .linkedin:hover {
@@ -878,9 +854,9 @@ form {
 
 .btn-primary {
     color: #fff;
-    background-color: #3acab1;
+    background-color: #475d75;
     border-radius: 0;
-    border-color: #3acab1;
+    border-color: #475d75;
 }
 
 .btn-primary:hover,
@@ -889,8 +865,8 @@ form {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #16a085;
-    border-color: #16a085;
+    background-color: #3b5167;
+    border-color: #3b5167;
 }
 
 .pagination > .active > a,
