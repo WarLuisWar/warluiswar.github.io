@@ -173,32 +173,39 @@ iframe {
     font-family: "Coda";
     padding: 5px 15px;
     font-size: 26px;
-    line-height: 100%;
+    line-height: 50%;
     height: auto;
 }
 
 .nav-wrap {
-    position: fixed;
+    position: relative;
     top: 0;
-    width: 100%;
+    width: 50%;
     z-index: 9999;
 }
 
 #wrapper {
     background: url(../img/background.jpg);
-    background-attachment: fixed;
+    background-attachment: 50%;
     background-position: center;
     background-size: cover;
+    height: 60vh;
 }
 
 #overlay-1 {
     background-color: rgba(40, 40, 40, 0.6);
-    position: relative;
+    position: absolute;
+    height: 60%;
+    width: 100%;
+
+}
+
+#inicio {
+    padding-top: 10px;
 }
 
 .starting-text {
-    padding: 177px 0px;
-    font-weight: bold;
+    font-weight: normal;
     text-shadow: 1px 1px 1px #000;
     letter-spacing: 2px;
 }
@@ -1164,6 +1171,11 @@ p.indent {
 
 /* Background */
 
+.reescalar {
+    height: 50%;
+}
+
 .fondo {
     background-color: #fafafa;
 }
+

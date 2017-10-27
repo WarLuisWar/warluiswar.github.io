@@ -36,7 +36,7 @@ $(function() {
 
     var setHomeBannerHeight = function(){
         var homeHeight= $(window).height();
-        $('#overlay-1').height(homeHeight);
+        $('#overlay-1').height(homeHeight*0.6);
     }
 
     setHomeBannerHeight();
@@ -61,19 +61,9 @@ $('a[href*=#]:not([href=#])').click(function() {
 ///////////////////////////////
 // Center Home Slideshow Text
 ///////////////////////////////
-
-function centerHomeBannerText() {
-    var bannerText = jQuery('#wrapper .starting-text');
-    var bannerTextTop = (jQuery('#wrapper').actual('height')/2) - (jQuery('#wrapper .starting-text').actual('height')/2) - 20;
-    bannerText.css('padding-top', bannerTextTop+'px');
-    bannerText.show();
-}
-
-centerHomeBannerText();
-
+    
 jQuery(window).smartresize(function() {
     setHomeBannerHeight();
-    centerHomeBannerText();
 });
     
 });
@@ -91,7 +81,7 @@ $(document).ready(function(){
 
     var setHomeBannerHeight = function(){
    var homeHeight= $(window).height();
-   $('#overlay-1').height(homeHeight);
+   $('#overlay-1').height(homeHeight*0.6);
     }
     setHomeBannerHeight();  
 

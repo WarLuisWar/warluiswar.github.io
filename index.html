@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- css -->
+    <link rel="stylesheet" href="css/agency.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/ionicons.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -19,7 +20,9 @@
     <link rel="stylesheet" href="css/custom.css">
     <link rel="icon" href="img/logo-icon-black-small.png">
 
+
     <!-- js -->
+    <script src="js/agency.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
@@ -27,6 +30,7 @@
     <script src="js/script.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/jquery.actual.min.js"></script>
+
 </head>
 
 <body>
@@ -62,11 +66,11 @@
                 <!-- navbar -->
             </section>
             <!-- #navigation -->
-            <section id="starting">
+            <section id="inicio">
                 <div class="text-center starting-text">
                     <!--<h1 class="rene">LUCA</h1>-->
                     <img class="pro img-responsive center-block" src="img/logo.png">
-                    <h2>Find out what to play</h2>
+                    <h2>Want to play?</h2>
                 </div>
             </section>
             <div id="bottom" class="bottom text-center">
@@ -261,22 +265,15 @@
                 </div>
             </div>
             <div class="main_content">
-                <div class="row port">
-                    <div class="col-md-8 col-md-offset-2 text-center button-group" id="filters">
-                        <button type="button" class="btn btn-default is-checked" data-filter="*">All</button>
-                        <button type="button" class="btn btn-default" data-filter=".web">Web Design</button>
-                        <button type="button" class="btn btn-default" data-filter=".game">Videogames</button>
-                        <button type="button" class="btn btn-default" data-filter=".app">App</button>
-                    </div>
-                </div>
                 <!-- row -->
                 <div class="row">
                     <div class="isotope" id="port-items">
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 element-item web sobre" data-category="game">
-                            <a href="#"><img class="pro img-fluid center-block ajustar" src="img/entry-fox.png"></a>
+                            <a href="https://www.behance.net/gallery/56557697/El-Fantastico-Senor-Zorro-Minijuego" target="_blank">
+                                <img class="pro img-fluid center-block ajustar" src="img/entry-fox.png"></a>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 element-item game sobre" data-category="web">
-                            <a href="#"><img class="pro img-fluid center-block ajustar" src="img/entry-photo.png"></a>
+                            <a href="https://www.behance.net/gallery/56556575/Mundo-en-Miniatura" target="_blank"><img class="pro img-fluid center-block ajustar" src="img/entry-photo.png"></a>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 element-item app sobre" data-category="game">
                             <a href="#"><img class="pro img-fluid center-block ajustar" src="img/entry-corchos.png"></a>
@@ -285,7 +282,7 @@
                             <a href="#"><img class="pro img-fluid center-block ajustar" src="img/entry-bonsai.png"></a>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 element-item app sobre" data-category="app">
-                            <a href="#"><img class="pro img-fluid center-block ajustar" src="img/entry-lluvia.png"></a>
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1"><img class="pro img-fluid center-block ajustar" src="img/entry-lluvia.png"></a>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 element-item app sobre" data-category="game">
                             <a href="#"><img class="pro img-fluid center-block ajustar" src="img/entry-monje.png"></a>
@@ -434,6 +431,13 @@
     </section>
     <!-- footer -->
 
+    <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="mx-auto text-center fondo" data-dismiss="modal">
+            <img class="img-fluid center-block" src="img/lluvia-acida.jpg" alt="">
+        </div>
+    </div>
+
     <!-- js -->
     <script>
         $(document).ready(function() {
@@ -481,11 +485,17 @@
         });
 
     </script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
     <script src="js/jquery-ui-1.10.3.min.js"></script>
     <script src="js/jquery.knob.js"></script>
     <script src="js/daterangepicker.js"></script>
     <script src="js/bootstrap3-wysihtml5.all.min.js"></script>
     <script src="js/dashboard.js"></script>
+
+
+
+
 
 </body>
 
