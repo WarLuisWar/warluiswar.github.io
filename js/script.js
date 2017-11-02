@@ -30,16 +30,6 @@
 
 $(function() {
 
-///////////////////////////////
-// Fix the Home Height
-///////////////////////////////
-
-    var setHomeBannerHeight = function(){
-        var homeHeight= $(window).height();
-        $('#overlay-1').height(homeHeight*0.6);
-    }
-
-    setHomeBannerHeight();
 
 ///////////////////////////////
 // One page Smooth Scrolling
@@ -58,15 +48,6 @@ $('a[href*=#]:not([href=#])').click(function() {
     }
 });
 
-///////////////////////////////
-// Center Home Slideshow Text
-///////////////////////////////
-    
-jQuery(window).smartresize(function() {
-    setHomeBannerHeight();
-});
-    
-});
 
 $(document).ready(function(){
     new WOW().init();

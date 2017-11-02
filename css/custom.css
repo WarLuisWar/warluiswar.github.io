@@ -329,7 +329,7 @@ hr {
 }
 
 .service:hover .about-service h3 {
-    color: rgb(175, 104, 77)
+    color: rgb(71, 93, 117)
 }
 
 .service {
@@ -1179,3 +1179,14 @@ p.indent {
     background-color: #fafafa;
 }
 
+.contImg {
+    margin-top: 3%;
+}
+
+.contImg > img {
+    height: 23vw;
+}
+
+/* *{
+    border: 1px solid #000;
+} */
