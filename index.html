@@ -67,7 +67,7 @@
             </section>
             <!-- #navigation -->
             <div class="contImg">
-                    <img class="pro img-fluid center-block" src="img/logo.png"/>
+                <img class="pro img-fluid center-block" src="img/logo.png" />
             </div>
             <div id="bottom" class="bottom text-center">
                 <a href="#about"><i class="ion-ios7-arrow-down"></i></a>
@@ -265,23 +265,23 @@
                 <div class="row">
                     <div class="isotope" id="port-items">
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 element-item web sobre" data-category="game">
-                            <a href="https://www.behance.net/gallery/56557697/El-Fantastico-Senor-Zorro-Minijuego" target="_blank">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
                                 <img class="pro img-fluid center-block ajustar" src="img/entry-fox.png"></a>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 element-item game sobre" data-category="web">
-                            <a href="https://www.behance.net/gallery/56556575/Mundo-en-Miniatura" target="_blank"><img class="pro img-fluid center-block ajustar" src="img/entry-photo.png"></a>
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2"><img class="pro img-fluid center-block ajustar" src="img/entry-photo.png"></a>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 element-item app sobre" data-category="game">
-                            <a href="#"><img class="pro img-fluid center-block ajustar" src="img/entry-corchos.png"></a>
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5"><img class="pro img-fluid center-block ajustar" src="img/entry-corchos.png"></a>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 element-item web sobre" data-category="game">
-                            <a href="#"><img class="pro img-fluid center-block ajustar" src="img/entry-bonsai.png"></a>
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4"><img class="pro img-fluid center-block ajustar" src="img/entry-bonsai.png"></a>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 element-item app sobre" data-category="app">
                             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1"><img class="pro img-fluid center-block ajustar" src="img/entry-lluvia.png"></a>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 element-item app sobre" data-category="game">
-                            <a href="#"><img class="pro img-fluid center-block ajustar" src="img/entry-monje.png"></a>
+                            <a  class="portfolio-link" data-toggle="modal" href="#portfolioModal6"><img class="pro img-fluid center-block ajustar" src="img/entry-monje.png"></a>
                         </div>
                     </div>
                     <!-- isotope -->
@@ -416,7 +416,7 @@
     <section id="footer" class="main-footer">
         <div class="row">
             <div class="logo text-center">
-                <!-- <h1>Renessa</h1> -->
+                <h1>Renessa</h1>
             </div>
         </div>
         <div class="row">
@@ -428,11 +428,47 @@
     <!-- footer -->
 
     <!-- Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="mx-auto text-center fondo d-flex p-2" data-dismiss="modal">
-            <img class="img-fluid center-block flex" src="img/lluvia-acida.jpg" alt="">
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-3" role="dialog" aria-hidden="true">
+        <div class="text-center fondo frente p-2" data-dismiss="modal">
+            <img class="img-fluid center-block flex ajustarmodal " src="img/lluvia-acida.jpg" alt="">
         </div>
     </div>
+
+    <!-- Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-3" role="dialog" aria-hidden="true">
+        <div class="text-center fondo d-flex frente p-2" data-dismiss="modal">
+            <img class="img-fluid center-block flex ajustarmodal " src="img/tira_foto.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- Modal 3-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-3" role="dialog" aria-hidden="true">
+        <div class="text-center fondo d-flex frente p-2" data-dismiss="modal">
+            <img class="img-fluid center-block flex ajustarmodal " src="img/Tira_zorro.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- Modal 4-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-3" role="dialog" aria-hidden="true">
+        <div class="text-center fondo d-flex frente p-2" data-dismiss="modal">
+            <img class="img-fluid center-block flex ajustarmodal " src="img/tira_bonsai.jpg" alt="">
+        </div>
+    </div>
+        <!-- Modal 5-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-3" role="dialog" aria-hidden="true">
+        <div class="text-center fondo d-flex frente p-2" data-dismiss="modal">
+            <img class="img-fluid center-block flex ajustarmodal " src="img/tira_sacacorchos.jpg" alt="">
+        </div>
+    </div>
+    
+            <!-- Modal 6-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-3" role="dialog" aria-hidden="true">
+        <div class="text-center fondo d-flex frente p-2" data-dismiss="modal">
+            <img class="img-fluid center-block flex ajustarmodal " src="img/tira_shao.jpg" alt="">
+        </div>
+    </div>
+    
+
 
     <!-- js -->
     <script>

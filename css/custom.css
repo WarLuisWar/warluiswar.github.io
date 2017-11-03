@@ -145,7 +145,7 @@ iframe {
 .navbar-default {
     border-radius: 0px;
     border: 0;
-    background-color: rgba(0, 0, 0, 0.19);
+    background-color: rgba(71, 93, 117, 0.95);
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -189,13 +189,13 @@ iframe {
     background-attachment: 50%;
     background-position: center;
     background-size: cover;
-    height: 60vh;
+    height: 50vh;
 }
 
 #overlay-1 {
     background-color: rgba(40, 40, 40, 0.6);
     position: absolute;
-    height: 60%;
+    height: 50%;
     width: 100%;
 
 }
@@ -777,13 +777,13 @@ form {
 }
 
 .logo h1 {
-    color: #F2F2F2;
+    color: #353030;
     font-family: 'Raleway', sans-serif;
-    font-size: 50px;
+    font-size: 25px;
 }
 
 .copyright {
-    margin-top: 10px;
+    margin-top: 5px;
     font-size: 16px;
     color: #353030;
 }
@@ -905,7 +905,7 @@ form {
 .navbar-fixed-top,
 .navbar-fixed-bottom {
     position: fixed;
-    z-index: 99999;
+    z-index: 3;
 }
 
 .btn-default:hover,
@@ -1099,7 +1099,7 @@ ul.price-table-chart li:nth-child(2) .price_table-button {
 }
 
 .navbar-brand img {
-    width: 110px;
+    width: 90px;
 }
 
 p.indent {
@@ -1169,6 +1169,14 @@ p.indent {
     vertical-align: middle;
 }
 
+.ajustarmodal {
+    max-height: 100%;
+    max-width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
 /* Background */
 
 .reescalar {
@@ -1179,13 +1187,30 @@ p.indent {
     background-color: #fafafa;
 }
 
+.frente {
+    position: relative;
+    z-index: 100;
+}
+
+.frente:hover {
+    cursor: pointer;
+}
+
+
 .contImg {
-    margin-top: 3%;
+
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 20%;
 }
 
 .contImg > img {
-    height: 23vw;
+    max-width: 100%;
+    height: auto;
 }
+
+
 
 /* *{
     border: 1px solid #000;
