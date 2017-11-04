@@ -218,13 +218,13 @@ iframe {
 .rene {
     font-size: 120px;
     color: white;
-   font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 300;
     margin-top: 75px;
 }
 
 .starting-text h2 {
-   font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #fff;
 }
 
@@ -278,7 +278,7 @@ Our service
 }
 
 .about-service h3 {
-   font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 33px;
 }
@@ -303,11 +303,11 @@ hr {
 }
 
 h4 {
-       font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 h4 {
-       font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .full {
@@ -365,7 +365,7 @@ h4 {
 }
 
 .member-title {
-        font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin-bottom: 15px;
     font-weight: normal;
 }
@@ -377,7 +377,7 @@ h4 {
 
 .team-member-description {
     text-align: center;
-       font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 15px;
 }
 
@@ -1207,9 +1207,7 @@ p.indent {
     z-index: 100;
 }
 
-.frente:hover {
-    cursor: pointer;
-}
+.frente:hover {}
 
 
 .contImg {
@@ -1287,6 +1285,76 @@ p.indent {
     -ms-transform: translate(-50%, -50%);
 }
 
+/*===================================================================================================
+                            Cerrar
+=====================================================================================================*/
+
+.outer {
+    position: fixed;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 9999999;
+    right: 20px;
+}
+
+.inner {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    z-index: 9999999;
+    right: 20px;
+}
+
+label {
+    font-size: .8em;
+    line-height: 4em;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color:  #475D75;
+    transition: all .3s ease-in;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.inner:before,
+.inner:after {
+    position: fixed;
+    content: '';
+    height: 4px;
+    width: 80px;
+    background:  #475D75;
+    right: 20px;
+    transition: all .3s ease-in;
+}
+
+.inner:before {
+    top: 3%;
+    transform: rotate(45deg);
+}
+
+.inner:after {
+    top: 3%;
+    transform: rotate(-45deg);
+}
+
+.outer:hover label {
+    opacity: 1;
+}
+
+.outer:hover .inner:before,
+.outer:hover .inner:after {
+    transform: rotate(0);
+}
+
+.outer:hover .inner:before {
+    top: 0;
+}
+
+.outer:hover .inner:after {
+    bottom: 0;
+}
 
 
 /* *{
