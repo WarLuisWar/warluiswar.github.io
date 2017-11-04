@@ -114,14 +114,19 @@ li a {
 
 #heading-text h3 {
     font-size: 49px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     padding-top: 58px;
     text-transform: uppercase;
 }
 
+h5 {
+    font-family: 'Raleway', sans-serif;
+}
+
 #heading-text p {
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     padding: 5px 0px
 }
 
@@ -213,13 +218,13 @@ iframe {
 .rene {
     font-size: 120px;
     color: white;
-    font-family: "omnes-pro", "Helvetica", sans-serif;
+   font-family: 'Raleway', sans-serif;
     font-weight: 300;
     margin-top: 75px;
 }
 
 .starting-text h2 {
-    font-family: "omnes-pro", "Helvetica", sans-serif;
+   font-family: 'Raleway', sans-serif;
     color: #fff;
 }
 
@@ -273,7 +278,8 @@ Our service
 }
 
 .about-service h3 {
-    font-family: "Coda";
+   font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     font-size: 33px;
 }
 
@@ -294,6 +300,14 @@ Our service
 
 hr {
     border-color: rgb(101, 85, 124);
+}
+
+h4 {
+       font-family: 'Raleway', sans-serif;
+}
+
+h4 {
+       font-family: 'Raleway', sans-serif;
 }
 
 .full {
@@ -346,13 +360,14 @@ hr {
 }
 
 #team .team-members h4 {
-    font-weight: 600;
+    font-weight: bold;
     margin-bottom: 5px;
 }
 
 .member-title {
-    font-family: "Coda";
+        font-family: 'Raleway', sans-serif;
     margin-bottom: 15px;
+    font-weight: normal;
 }
 
 #team h2 {
@@ -362,7 +377,7 @@ hr {
 
 .team-member-description {
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+       font-family: 'Raleway', sans-serif;
     font-size: 15px;
 }
 
