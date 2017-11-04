@@ -1306,6 +1306,7 @@ p.indent {
     z-index: 9999999;
     right: 80px;
     background: rgba(255, 255, 255, 0.7);
+    border-radius: 40%;
 }
 
 label {
@@ -1314,7 +1315,7 @@ label {
     font-weight: 600;
     letter-spacing: 4px;
     text-transform: uppercase;
-    color:  #475D75;
+    color: #475D75;
     transition: all .3s ease-in;
     opacity: 0;
     cursor: pointer;
@@ -1326,24 +1327,29 @@ label {
     content: '';
     height: 4px;
     width: 80px;
-    background:  #475D75;
+    background: #475D75;
     right: 80px;
     transition: all .3s ease-in;
 }
 
 .inner:before {
-    top: 5.7%;
+    top: 5.9%;
     transform: rotate(45deg);
 }
 
 .inner:after {
-    top: 5.7%;
+    top: 5.9%;
     transform: rotate(-45deg);
 }
 
 .outer:hover label {
     opacity: 1;
-    
+
+}
+
+.outer:hover .inner {
+    border-radius: 0%;
+    height: 40px;
 }
 
 .outer:hover .inner:before,
