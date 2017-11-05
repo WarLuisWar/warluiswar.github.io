@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Coda);
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa);
 @import url(https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600);
 
 /*======================================================================================================
@@ -1366,6 +1367,64 @@ label {
     top: 6%;
 }
 
+/* *{
+    Grandes
+} */
+
+.texto-foto {
+    height: 400px;
+}
+
+@media screen and (min-width: 300px) {
+    .texto-foto {
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .texto-foto {
+        height: 400px;
+    }
+}
+
+/* *{
+    Pequeños
+} */
+
+.texto-foto-pequeno {
+    height: 200px;
+}
+
+@media screen and (min-width: 300px) {
+    .texto-foto-pequeno {
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .texto-foto-pequeno {
+        height: 200px;
+    }
+}
+
+.contenedor-texto-foto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.texto-final {
+    font-size: 5em;
+}
+
+
+.centradito {
+    font-family: 'Comfortaa', cursive;
+}
 
 /* *{
     border: 1px solid #000;
